@@ -1,0 +1,19 @@
+{
+  "name": "studiova-1.0.0",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"https://getbootstrap.com/\">\r     <img src=\"https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png\" alt=\"Bootstrap logo\" width=\"200\" height=\"165\">\r   </a>\r </p>",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}

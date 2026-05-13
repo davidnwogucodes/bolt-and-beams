@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bolt &amp; Beams</title>
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.svg" />
+  <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css">
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header border-4 border-primary border-top position-fixed start-0 top-0 w-100">
+    <div class="container">
+      <div class="header-wrapper d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <a href="index.html" class="logo-white">
+            <img src="../assets/images/logos/bolt-white.png" alt="logo" class="img-fluid">
+          </a>
+          <a href="index.html" class="logo-dark">
+            <img src="../assets/images/logos/bolt-white.png" alt="logo" class="img-fluid">
+          </a>
+        </div>
+        <div class="d-flex align-items-center gap-4">
+
+          <div class="btn-group">
+            <button
+              class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
+              type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+              <iconify-icon icon="solar:hamburger-menu-line-duotone" class="menu-icon fs-8 text-dark"></iconify-icon>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end p-4">
+              <div class="d-flex flex-column gap-6">
+                <div class="hstack justify-content-between border-bottom pb-6">
+                  <p class="mb-0 fs-5 text-dark">Menu</p>
+                  <button type="button" class="btn-close opacity-75" aria-label="Close"></button>
+                </div>
+                <div class="d-flex flex-column gap-3">
+                  <ul class="header-menu list-unstyled mb-0 d-flex flex-column gap-2">
+                    <li class="header-item">
+                      <a href="#home" aria-current="true"
+                        class="header-link active hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Home</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="#about" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">About</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="#projects" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Projects</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="#services" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Services</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="#contact" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Get in touch</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex flex-column gap-1 border-top pt-4">
+                  <a class="text-dark fs-7" href="tel:+2348064081239">+234 806 408 1239</a>
+                  <a class="text-dark fs-7 fw-bold" href="mailto:boltandbeams@gmail.com">boltandbeams@gmail.com</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--  Page Wrapper -->
+  <div class="page-wrapper overflow-hidden">
+
+    <!--  Banner Section -->
+    <section id="home" class="banner-section position-relative d-flex align-items-end min-vh-100">
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay muted loop playsinline>
+        <source src="../assets/images/backgrounds/bolt-g.mp4" type="video/mp4" />
+      </video>
+      <div class="container">
+        <div class="d-flex flex-column gap-4 pb-8 position-relative z-1">
+          <div class="row align-items-center">
+            <div class="col-xl-4">
+              <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <img src="../assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin">
+                <p class="mb-0 text-white fs-5 text-opacity-70 banner-text-glow">Nigeria's fast-rising <span
+                    class="text-primary">construction and engineering</span> firm delivering excellence from concept to
+                  completion.</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-end gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <a href="about-us.html" class="text-decoration-none lh-1">
+              <h1 class="mb-0 fs-16 text-white lh-1 banner-text-glow">Bolt &amp; Beams</h1>
+            </a>
+            <a href="about-us.html" class="p-1 ps-7 bg-primary rounded-pill">
+              <span class="bg-white round-52 rounded-circle d-flex align-items-center justify-content-center">
+                <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Stats & Facts Section -->
+    <section id="about" class="stats-facts py-5 py-lg-11 py-xl-12 position-relative overflow-hidden">
+      <div class="container">
+        <div class="row gap-7 gap-xl-0">
+          <div class="col-xl-4 col-xxl-4">
+            <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
+              data-aos-duration="1000">
+              <span
+                class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">01</span>
+              <hr class="border-line">
+              <span class="badge text-bg-dark">About the company</span>
+            </div>
+          </div>
+          <div class="col-xl-8 col-xxl-7">
+            <div class="d-flex flex-column gap-9">
+              <div class="row">
+                <div class="col-xxl-8">
+                  <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
+                    data-aos-duration="1000">
+                    <h2 class="mb-0">Bolt &amp; Beams is a fast-rising construction and engineering firm.</h2>
+                    <p class="fs-5 mb-0">Founded in 2023 and headquartered in Abuja, we deliver top-tier services from
+                      concept and design to construction, operation, and maintenance across civil, interior design,
+                      infrastructure, and real estate.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mb-7 mb-lg-0">
+                  <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="200"
+                    data-aos-duration="1000">
+                    <h2 class="mb-0 fs-14"><span class="count" data-target="4">4</span></h2>
+                    <p class="mb-0">Core values: Excellence, Responsibility, Courage, Collaboration</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-7 mb-lg-0">
+                  <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="300"
+                    data-aos-duration="1000">
+                    <h2 class="mb-0 fs-14"><span class="count" data-target="3">3</span></h2>
+                    <p class="mb-0">Objectives: technical excellence, integrated delivery, sustainability compliance</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-7 mb-lg-0">
+                  <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="400"
+                    data-aos-duration="1000">
+                    <h2 class="mb-0 fs-14"><span class="count" data-target="3">3</span></h2>
+                    <p class="mb-0">Goals: lead Nigeria, expand beyond borders, drive sustainable infrastructure</p>
+                  </div>
+                </div>
+              </div>
+              <a href="about-us.html" class="btn" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <span class="btn-text">Who we are</span>
+                <iconify-icon icon="lucide:arrow-up-right"
+                  class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute bottom-0 start-0" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+        <img src="../assets/images/backgrounds/stats-facts-bg.svg" alt="" class="img-fluid">
+      </div>
+    </section>
+
+    <!--  Featured Projects Section -->
+    <section id="projects" class="featured-projects py-5 py-lg-11 py-xl-12 bg-light-gray">
+      <div class="d-flex flex-column gap-5 gap-xl-11">
+        <div class="container">
+          <div class="row gap-7 gap-xl-0">
+            <div class="col-xl-4 col-xxl-4">
+              <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
+                data-aos-duration="1000">
+                <span
+                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">02</span>
+                <hr class="border-line">
+                <span class="badge text-bg-dark">Portfolio</span>
+              </div>
+            </div>
+            <div class="col-xl-8 col-xxl-7">
+              <div class="row">
+                <div class="col-xxl-8">
+                  <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
+                    data-aos-duration="1000">
+                    <h2 class="mb-0">Featured projects</h2>
+                    <p class="fs-5 mb-0">A glimpse into our creativity—exploring innovative designs, successful
+                      collaborations, and transformative digital experiences.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="featured-projects-slider px-3">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="portfolio d-flex flex-column gap-6">
+                <div class="portfolio-img position-relative overflow-hidden">
+                  <img src="../assets/images/portfolio/b1.jpeg" alt="Lumen Studio" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-overlay-content d-flex flex-column gap-3 h-100 justify-content-center align-items-center text-center p-4 p-md-5">
+                      <p class="text-white fs-5 mb-0">A serene primary bedroom layered in warm light, sheer drapery, and quiet, sculptural furniture.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-details d-flex flex-column gap-3">
+                  <h3 class="mb-0">Hushed Bedroom Retreat</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio d-flex flex-column gap-6">
+                <div class="portfolio-img position-relative overflow-hidden">
+                  <img src="../assets/images/portfolio/b2.jpeg" alt="Northbound Co." class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-overlay-content d-flex flex-column gap-3 h-100 justify-content-center align-items-center text-center p-4 p-md-5">
+                      <p class="text-white fs-5 mb-0">A restful master suite anchored by warm wood, soft cove lighting, and uninterrupted lines.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-details d-flex flex-column gap-3">
+                  <h3 class="mb-0">Cove-Lit Master Suite</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio d-flex flex-column gap-6">
+                <div class="portfolio-img position-relative overflow-hidden">
+                  <img src="../assets/images/portfolio/b3.jpeg" alt="Atelier Mono" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-overlay-content d-flex flex-column gap-3 h-100 justify-content-center align-items-center text-center p-4 p-md-5">
+                      <p class="text-white fs-5 mb-0">A quiet courtyard corner where woven textures, terracotta pottery, and greenery come together.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-details d-flex flex-column gap-3">
+                  <h3 class="mb-0">Terracotta Garden Nook</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio d-flex flex-column gap-6">
+                <div class="portfolio-img position-relative overflow-hidden">
+                  <img src="../assets/images/portfolio/b4.jpeg" alt="Forma Goods" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-overlay-content d-flex flex-column gap-3 h-100 justify-content-center align-items-center text-center p-4 p-md-5">
+                      <p class="text-white fs-5 mb-0">A modern galley kitchen finished in marble and warm timber—built for slow mornings.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-details d-flex flex-column gap-3">
+                  <h3 class="mb-0">Marble Galley Kitchen</h3>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="portfolio d-flex flex-column gap-6">
+                <div class="portfolio-img position-relative overflow-hidden">
+                  <img src="../assets/images/portfolio/b5.jpeg" alt="Ember & Oak" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-overlay-content d-flex flex-column gap-3 h-100 justify-content-center align-items-center text-center p-4 p-md-5">
+                      <p class="text-white fs-5 mb-0">A glowing halo mirror and stone vanity, turning a compact bath into a softly sculpted moment.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-details d-flex flex-column gap-3">
+                  <h3 class="mb-0">Halo Mirror Vanity</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Services Section -->
+    <section class="services py-5 py-lg-11 py-xl-12 bg-dark" id="services">
+      <div class="container">
+        <div class="d-flex flex-column gap-5 gap-xl-10">
+          <div class="row gap-7 gap-xl-0">
+            <div class="col-xl-4 col-xxl-4">
+              <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
+                data-aos-duration="1000">
+                <span
+                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">03</span>
+                <hr class="border-line bg-white">
+                <span class="badge text-dark bg-white">Services</span>
+              </div>
+            </div>
+            <div class="col-xl-8 col-xxl-7">
+              <div class="row">
+                <div class="col-xxl-8">
+                  <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
+                    data-aos-duration="1000">
+                    <h2 class="mb-0 text-white">What we do</h2>
+                    <p class="fs-5 mb-0 text-white text-opacity-70">A look at how we work—delivering projects from
+                      concept and design through construction, operation, and maintenance across civil, interior, and
+                      real estate sectors.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="services-tab">
+            <div class="row gap-5 gap-xl-0">
+              <div class="col-xl-4">
+                <div id="servicesCarousel" class="carousel slide services-carousel" data-bs-ride="carousel"
+                  data-bs-interval="3000" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../assets/images/portfolio/wha1.png" alt="What we do slide 1"
+                        class="d-block w-100 services-carousel-image">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/images/portfolio/wha2.png" alt="What we do slide 2"
+                        class="d-block w-100 services-carousel-image">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/images/portfolio/wha3.png" alt="What we do slide 3"
+                        class="d-block w-100 services-carousel-image">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../assets/images/portfolio/wha4.png" alt="What we do slide 4"
+                        class="d-block w-100 services-carousel-image">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-xl-8">
+                <div class="d-flex flex-column gap-5">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist" data-aos="fade-up" data-aos-delay="200"
+                    data-aos-duration="1000">
+                    <li
+                      class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
+                      role="presentation">
+                      <div class="row w-100 align-items-center gx-3">
+                        <div class="col-lg-6 col-xxl-5">
+                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0 active"
+                            id="one-tab" data-bs-toggle="tab" data-bs-target="#one" type="button" role="tab"
+                            aria-controls="one" aria-selected="true">Architectural design</button>
+                        </div>
+                        <div class="col-lg-6 col-xxl-7">
+                          <p class="text-white text-opacity-70 mb-0">
+                            From first sketch to working drawings, we shape spaces that are precise, buildable, and
+                            built to last—balancing form, function, and the realities of the site.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
+                      role="presentation">
+                      <div class="row w-100 align-items-center gx-3">
+                        <div class="col-lg-6 col-xxl-5">
+                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0" id="two-tab"
+                            data-bs-toggle="tab" data-bs-target="#two" type="button" role="tab" aria-controls="two"
+                            aria-selected="false">Finishing</button>
+                        </div>
+                        <div class="col-lg-6 col-xxl-7">
+                          <p class="text-white text-opacity-70 mb-0">
+                            The final layer is where craft shows. Clean joints, considered materials, and finishes—
+                            plaster, tile, joinery, paint—built to hold up to everyday use.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
+                      role="presentation">
+                      <div class="row w-100 align-items-center gx-3">
+                        <div class="col-lg-6 col-xxl-5">
+                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0"
+                            id="three-tab" data-bs-toggle="tab" data-bs-target="#three" type="button" role="tab"
+                            aria-controls="three" aria-selected="false">Landscaping</button>
+                        </div>
+                        <div class="col-lg-6 col-xxl-7">
+                          <p class="text-white text-opacity-70 mb-0">
+                            We turn open ground into outdoor rooms—hardscape, planting, drainage, and lighting—
+                            designed for the climate and meant to age well.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="nav-item py-4 py-lg-8 border-top border-white border-opacity-10 d-flex align-items-center w-100"
+                      role="presentation">
+                      <div class="row w-100 align-items-center gx-3">
+                        <div class="col-lg-6 col-xxl-5">
+                          <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0"
+                            id="four-tab" data-bs-toggle="tab" data-bs-target="#four" type="button" role="tab"
+                            aria-controls="four" aria-selected="false">Project mgt</button>
+                        </div>
+                        <div class="col-lg-6 col-xxl-7">
+                          <p class="text-white text-opacity-70 mb-0">
+                            We coordinate trades, schedules, and budgets across every phase—keeping projects on
+                            programme and on cost while holding the line on quality and safety.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#projects" class="btn border border-white border-opacity-25" data-aos="fade-up"
+                    data-aos-delay="300" data-aos-duration="1000">
+                    <span class="btn-text">See our Work</span>
+                    <iconify-icon icon="lucide:arrow-up-right"
+                      class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Get in touch Section -->
+    <section id="contact" class="get-in-touch py-5 py-lg-11 py-xl-12">
+      <div class="container">
+        <div class="d-flex flex-column gap-5 gap-xl-10">
+          <div class="row gap-7 gap-xl-0">
+            <div class="col-xl-4 col-xxl-4">
+              <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
+                data-aos-duration="1000">
+                <span
+                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">10</span>
+                <hr class="border-line bg-white">
+                <span class="badge text-bg-dark">Contact us</span>
+              </div>
+            </div>
+            <div class="col-xl-8 col-xxl-7">
+              <div class="row">
+                <div class="col-xxl-8">
+                  <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
+                    data-aos-duration="1000">
+                    <h2 class="mb-0">Get in touch</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between gap-7 gap-xl-0">
+            <div class="col-xl-3">
+              <p class="mb-0 fs-5" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">Let’s collaborate
+                and create something amazing! Tell me about your project—I’m all
+                ears.</p>
+            </div>
+            <div class="col-xl-8">
+              <div class="contact-form-wrap position-relative" data-aos="fade-up" data-aos-delay="200"
+                data-aos-duration="1000">
+                <iframe id="contact-form-iframe"
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSe17ulV-WwZW8lAOdnSc2nqteUsup3PUQk4P0LxP1AxNMmAZQ/viewform?embedded=true"
+                  title="Get in touch with Bolt &amp; Beams"
+                  loading="lazy"
+                  style="width:100%;min-height:1100px;border:0;background:#fff;border-radius:16px;">Loading…</iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 mb-8 mb-xl-0">
+          <div class="d-flex flex-column gap-8 pe-xl-5">
+            <h2 class="mb-0 text-white">Build something together?</h2>
+            <div class="d-flex flex-column gap-2">
+              <a href="mailto:boltandbeams@gmail.com" class="link-hover hstack gap-3 text-white fs-5">
+                <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary"></iconify-icon>
+                boltandbeams@gmail.com
+              </a>
+              <a href="https://maps.app.goo.gl/hpDp81fqzGt5y4bC8" target="_blank"
+                class="link-hover hstack gap-3 text-white fs-5">
+                <iconify-icon icon="lucide:map-pin" class="fs-7 text-primary"></iconify-icon>
+                boltandbeams@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
+          <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
+            <li><a class="link-hover fs-5 text-white" href="index.html">Home</a></li>
+            <li><a class="link-hover fs-5 text-white" href="about-us.html">About</a></li>
+            <li><a class="link-hover fs-5 text-white" id="services" href="#services">Services</a></li>
+            <li><a class="link-hover fs-5 text-white" href="projects.html">Work</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
+          <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
+            <li><a class="link-hover fs-5 text-white" href="https://www.instagram.com/boltandbeamsltd/" target="_blank" rel="noopener">Social Media</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="get-template hstack gap-2">
+    <button class="btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center flex-shrink-0"
+      id="scrollToTopBtn">
+      <iconify-icon icon="lucide:arrow-up" class="fs-7 text-dark"></iconify-icon>
+    </button>
+  </div>
+
+
+  <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="../assets/libs/aos-master/dist/aos.js"></script>
+  <script src="../assets/js/custom.js"></script>
+  <!-- solar icons -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</body>
+
+</html>
+
+

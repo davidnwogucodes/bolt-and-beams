@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($file = 'c:\\\\Users\\\\hp\\\\Desktop\\\\Studiova-1.0.0\\\\html\\\\index.html'; $bytes = [System.IO.File]::ReadAllBytes\\($file\\); if \\($bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF\\) { 'UTF8-BOM' } else { 'No BOM' }; $text = [System.IO.File]::ReadAllText\\($file\\); if \\($text -match \"`r`n\"\\) { 'CRLF' } else { 'LF' })",
+      "PowerShell($file = 'c:\\\\Users\\\\hp\\\\Desktop\\\\Studiova-1.0.0\\\\html\\\\index.html'; $text = [System.IO.File]::ReadAllText\\($file\\); $lines = $text -split \"`n\"; $kept = $lines[0..508] + $lines[1310..\\($lines.Length - 1\\)]; $newText = $kept -join \"`n\"; $utf8NoBom = New-Object System.Text.UTF8Encoding $false; [System.IO.File]::WriteAllText\\($file, $newText, $utf8NoBom\\); \\(Get-Content $file | Measure-Object -Line\\).Lines)"
+    ]
+  }
+}
